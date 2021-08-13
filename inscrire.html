@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_inscrire.css">
+    <link rel="icon" href="Facebook_Logo.png" type="x-icon">
+    <title>S'inscrire</title>
+</head>
+
+<body>
+    <div class="about">
+        <form action="index.html" method="POST" autocomplete>
+            <div class="about2">
+                <label style="font-size: 35px;"><strong>S'inscrire</strong></label>
+                <p>C'est rapide et facile</p>
+            </div>
+            <hr>
+            <div class="about3">
+                <div class="nomcomplet">
+                    <div class="prenom">
+                        <input type="text" name="prenom" value="" placeholder="Prénom" required>
+                    </div>
+                    <div class="nom">
+                        <input type="text" name="nom" value="" placeholder="Nom de famille" required>
+                    </div>
+                </div>
+                <div class="email_pass">
+                    <div class="email">
+                        <input type="text" name="num_email" value="" placeholder="Numéro de mobile ou e-mail" required>
+                    </div>
+                    <div class="pass">
+                        <input type="passworld" name="passworld" value="" placeholder="Nouveau mot de passe" required>
+                    </div>
+                </div>
+                <label class="date_genre">Date de naissance </label>
+                <br>
+                <div class="daten">
+                    <div class="jour">
+                        <select name="jour" id="jour" title="Jour" required>
+                          <option value="30 ">30</option>
+                          <option value="5 ">5</option>
+                          <option value="4 ">4</option>
+                          <option value="3 ">3</option>
+                          <option value="2 ">2</option>
+                          <option value="1 ">1</option>
+                        </select>
+                    </div>
+                    <div class="mois">
+                        <select name="mois" id="mois" title="Mois" equired>
+                          <option value="jan ">jan</option>
+                          <option value="fév ">fév</option>
+                         <option value="mar ">mar</option>
+                         <option value="jun ">jun</option>
+                         <option value="juil ">juil</option>
+                        </select>
+                    </div>
+                    <div class="annee">
+                        <select name="annee" id="annee" title="année" equired>
+                          <option value="2021">2021</option>
+                          <option value="2020">2020</option>
+                          <option value="2019">2019</option>
+                          <option value="2018">2018</option>
+                          <option value="2000">2000</option>
+                       </select>
+                    </div>
+                </div>
+                <label for="Genre" class="date_genre">Genre</label>
+                <div class="Genre">
+                    <div class="femme">
+                        <label for="femme" class="fhp">  Femme   </label>
+                        <input type="radio" id="femme" name="Genre" value="Femme" required>
+                    </div>
+                    <div class="Homme">
+                        <label for="Homme" class="fhp">  Homme   </label>
+                        <input type="radio" id="Homme" name="Genre" value="Homme" required>
+                    </div>
+                    <div class="Personnalisé">
+                        <label for="Personnalisé" class="fhp">  Personnalisé   </label>
+                        <input type="radio" id="Personnalisé" name="Genre" value="Personnalisé" required>
+                    </div>
+                </div>
+                <p>En appuyant sur S’inscrire, vous acceptez nos <a href="#"> Conditions générales</a>, notre
+                    <a href="#">Politique d’utilisation des données</a> et notre
+                    <a href="#">Politique d’utilisation des cookies</a> . Vous recevrez peut-être des notifications par text de notre part et vous pouvez à tout moment vous désabonner.
+                </p>
+                <div class="submit">
+                    <input type="submit" value="S'inscrire">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
