@@ -1,0 +1,151 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: #EEEEEE;
+        height: 650px;
+    }
+    
+    .about {
+        background: rgb(255, 255, 255);
+        margin-top: 60px;
+        margin-right: 470px;
+        margin-left: 450px;
+        border-radius: 8px;
+        box-shadow: 1px 2px 7px #BDBDBD;
+    }
+    
+    .about2 {
+        padding: 15px;
+    }
+    
+    .about2>P {
+        font-size: 17px;
+        opacity: 0.6;
+    }
+    
+    hr {
+        opacity: 0.3;
+    }
+    
+    .about3 {
+        margin: 15px;
+    }
+    
+    .nomcomplet {
+        padding-bottom: 10px;
+    }
+    
+    .nomcomplet>div>input {
+        padding: 10px;
+        background-color: #EEEEEE;
+        border: 1px solid #ccc3c3;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    
+    .prenom {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .nom {
+        display: inline-block;
+    }
+    
+    .email_pass>div>input {
+        padding: 12px;
+        width: 370px;
+        background-color: #EEEEEE;
+        border: 1px solid #ccc3c3;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    
+    .email {
+        margin-bottom: 10px;
+    }
+    
+    .pass {
+        margin-bottom: 10px;
+    }
+    
+    .daten>div {
+        display: inline-block;
+    }
+    
+    .daten>div>select {
+        padding: 7px;
+        width: 122px;
+        border: 1px solid #ccc3c3;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .mois {
+        margin: 0px 10px;
+    }
+    
+    .date_genre {
+        color: #606770;
+        font-size: 14px;
+    }
+    
+    .Genre>div {
+        border: 1px solid #ccc3c3;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .femme {
+        width: 90px;
+    }
+    
+    .Homme {
+        width: 100px;
+        margin: 0px 10px;
+    }
+    
+    .Personnalisé {
+        width: 122px;
+    }
+    
+    .fhp {
+        margin-right: 20px;
+    }
+    
+    p {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    
+    a {
+        color: #264a91;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .submit>input {
+        margin: 20px 100px;
+        padding: 9px;
+        width: 180px;
+        background: #00a400;
+        border: 1px solid #00a400;
+        border-radius: 6px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .submit>input:hover {
+        background: #578843;
+        border: 1px solid #578843;
+    }

@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EEEEEE;
+    height: 650px;
+}
+
+.about1 {
+    float: left;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about2 {
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 380px;
+    height: 300px;
+    padding: 15px;
+    box-shadow: 1px 2px 7px #BDBDBD;
+}
+
+.nom_pass>input {
+    padding: 15px;
+    width: 330px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.nom_pass>input:hover {
+    border: 1px solid rgb(0, 47, 255);
+}
+
+.submit>button {
+    margin-bottom: 15px;
+    padding: 12px;
+    background: rgb(0, 47, 255);
+    border: 1px solid rgb(0, 47, 255);
+    border-radius: 6px;
+    width: 360px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button {
+    font-size: 18px;
+    color: white;
+}
+
+.submit>button:hover {
+    background: rgb(3, 43, 221);
+    border: 1px solid rgb(3, 43, 221);
+}
+
+.pass_oublie>a {
+    color: rgb(0, 47, 255);
+    opacity: 0.8;
+    padding-left: 110px;
+    text-decoration: none;
+}
+
+.pass_oublie>a:hover {
+    text-decoration: underline;
+}
+
+.NCompt>input {
+    margin: 15px;
+    padding: 13px;
+    background: rgb(37, 170, 11);
+    border: 1px solid rgb(29, 160, 3);
+    border-radius: 6px;
+    width: 210;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-left: 110px;
+}
+
+.NCompt>input:hover {
+    background: rgb(27, 146, 3);
+    border: 1px solid rgb(27, 146, 3);
+}
+
+hr {
+    opacity: 0.4;
+}
